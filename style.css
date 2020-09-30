@@ -311,6 +311,7 @@ html {
   color: red;
   font-size: 6rem;
   line-height: 20rem;
+  cursor: pointer;
 }
 
 /* PLANS */
