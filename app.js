@@ -263,5 +263,119 @@ function sbtext4() {
   sp4.style.color = "green";
 }
 
-// BODY LOAD
+// PORTFOLIO
 
+let pi1 = document.querySelector('.pi1');
+let pi2 = document.querySelector('.pi2');
+let pi3 = document.querySelector('.pi3');
+let pi4 = document.querySelector('.pi4');
+let pi5 = document.querySelector('.pi5');
+let pi6 = document.querySelector('.pi6');
+
+let pb1 = document.querySelector('.pb1');
+let pb2 = document.querySelector('.pb2');
+let pb3 = document.querySelector('.pb3');
+let pb4 = document.querySelector('.pb4');
+let pb5 = document.querySelector('.pb5');
+let pb6 = document.querySelector('.pb6');
+
+function mOver1(x) {
+  x.style.opacity = "0.5";
+  pb1.style.display = "block";
+}
+function mOut1(x) {
+  x.style.opacity = "1";
+  pb1.style.display = "none";
+  pb1.style.backgroundColor = "black";
+  pb1.style.textTransform = "none";
+}
+pb1.addEventListener('click', pb1F);
+function pb1F() {
+  alert('No more pictures');
+}
+
+function mOver2(x) {
+  x.style.opacity = "0.5";
+  pb2.style.display = "block";
+}
+function mOut2(x) {
+  x.style.opacity = "1";
+  pb2.style.display = "none";
+  pb2.style.backgroundColor = "black";
+  pb2.style.textTransform = "none";
+}
+pb2.addEventListener('click', pb2F);
+function pb2F() {
+  alert('No more pictures');
+}
+
+function mOver3(x) {
+  x.style.opacity = "0.5";
+  pb3.style.display = "block";
+}
+function mOut3(x) {
+  x.style.opacity = "1";
+  pb3.style.display = "none";
+  pb3.style.backgroundColor = "black";
+  pb3.style.textTransform = "none";
+}
+pb3.addEventListener('click', pb3F);
+function pb3F() {
+  alert('No more pictures');
+}
+
+function mOver4(x) {
+  x.style.opacity = "0.5";
+  pb4.style.display = "block";
+}
+function mOut4(x) {
+  x.style.opacity = "1";
+  pb4.style.display = "none";
+  pb4.style.backgroundColor = "black";
+  pb4.style.textTransform = "none";
+}
+pb4.addEventListener('click', pb4F);
+function pb4F() {
+  alert('No more pictures');
+}
+
+function mOver5(x) {
+  x.style.opacity = "0.5";
+  pb5.style.display = "block";
+}
+function mOut5(x) {
+  x.style.opacity = "1";
+  pb5.style.display = "none";
+  pb5.style.backgroundColor = "black";
+  pb5.style.textTransform = "none";
+}
+pb5.addEventListener('click', pb5F);
+function pb5F() {
+  alert('No more pictures');
+}
+
+function mOver6(x) {
+  x.style.opacity = "0.5";
+  pb6.style.display = "block";
+}
+function mOut6(x) {
+  x.style.opacity = "1";
+  pb6.style.display = "none";
+  pb6.style.backgroundColor = "black";
+  pb6.style.textTransform = "none";
+}
+pb6.addEventListener('click', pb6F);
+function pb6F() {
+  alert('No more pictures');
+}
+
+function mob(x) {
+  x.style.textTransform = "uppercase";
+  x.style.backgroundColor = "red";
+}
+
+let seeAllWorksBtn = document.querySelector('.portfolio-button');
+seeAllWorksBtn.addEventListener('click', seeAllWorks);
+function seeAllWorks() {
+  alert('No more galleries currently.');
+}
